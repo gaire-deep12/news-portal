@@ -166,6 +166,6 @@ class ArticleController extends Controller
             }
         }
         $article->delete();
-        return redirect()->route('category.index')->with('success', "Article Deleted Successfully!");
+        return redirect()->route('article.index')->with('success', "Article Deleted Successfully!");
     }
 }
